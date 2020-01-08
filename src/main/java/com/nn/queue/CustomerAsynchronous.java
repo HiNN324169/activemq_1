@@ -15,8 +15,12 @@ public class CustomerAsynchronous {
     public static void main(String[] args) throws Exception {
 
 //        第一步：创建ConnectionFactory对象，需要指定服务端口以及端口号
-        ConnectionFactory factory = new ActiveMQConnectionFactory(brokerURL);
+        ActiveMQConnectionFactory factory = new ActiveMQConnectionFactory(brokerURL);
 
+        /**
+         *  放行 所有包的安全检查
+         */
+        factory.setTrustAllPackages(true);
 //        第二步：使用connectionFactory对象 创建一个connection 对象
         Connection connection = factory.createConnection();
 
@@ -42,7 +46,21 @@ public class CustomerAsynchronous {
                 if (message instanceof TextMessage) {
                     TextMessage textMessage = (TextMessage) message;
                     try {
-                        System.out.println("接收到消息，消息内容为：" + textMessage.getText());
+                        System.out.println("接收到消息，消息内容为：" + textMessage.getText()+"...类型："+textMessage.getJMSMessageID());
+                    } catch (JMSException e) {
+                        e.printStackTrace();
+                    }
+                }else if(message instanceof MapMessage){
+                    MapMessage mapMessage = (MapMessage) message;
+                    try {
+                        System.out.println("收到的Map消息，消息内容为：id:"+mapMessage.getInt("id")+"   name:"+mapMessage.getString("name"));
+                    } catch (JMSException e) {
+                        e.printStackTrace();
+                    }
+                }else if(message instanceof ObjectMessage){
+                    ObjectMessage objectMessage = (ObjectMessage) message;
+                    try {
+                        System.out.println("收到的objectMessage 消息，消息内容为："+objectMessage.getObject().toString()+"   属性为："+objectMessage.getStringProperty("property"));
                     } catch (JMSException e) {
                         e.printStackTrace();
                     }

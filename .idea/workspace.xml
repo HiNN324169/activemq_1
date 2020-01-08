@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cbe2153-3810-4a63-9eb5-d512930ba73e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/acrivemq_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq-data/localhost/KahaDB/db-1.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq-data/localhost/KahaDB/db.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq-data/localhost/KahaDB/db.redo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activemq-data/localhost/KahaDB/lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/broker/MyActiveMQBroker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nn/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/broker/MyActiveMQBroker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/queue/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/queue/CustomerAsynchronous$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/queue/CustomerAsynchronous.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/queue/Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/queue/ProducerAsynchronous.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/topic/TopicCustomer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/topic/TopicCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/nn/topic/TopicProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nn/queue/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nn/queue/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nn/queue/CustomerAsynchronous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nn/queue/CustomerAsynchronous.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nn/queue/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nn/queue/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nn/queue/ProducerAsynchronous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nn/queue/ProducerAsynchronous.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\nn\workspace\IDEA\newSpace1\acrivemq_1\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1W1QXtGmWz0M8c2F9UytE9kdBdj" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>Struts 2Struts</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Struts2ModelInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenModules" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578313662137" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nn.queue" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Customer">
+    <configuration name="Customer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nn.queue.Customer" />
+      <module name="acrivemq_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nn.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerAsynchronous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nn.queue.CustomerAsynchronous" />
+      <module name="acrivemq_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nn.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyActiveMQBroker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nn.broker.MyActiveMQBroker" />
+      <module name="acrivemq_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nn.broker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nn.queue.Producer" />
+      <module name="acrivemq_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nn.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerAsynchronous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nn.queue.ProducerAsynchronous" />
+      <module name="acrivemq_1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nn.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CustomerAsynchronous" />
+      <item itemvalue="Application.ProducerAsynchronous" />
+      <item itemvalue="Application.MyActiveMQBroker" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Application.Customer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Customer" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.MyActiveMQBroker" />
+        <item itemvalue="Application.ProducerAsynchronous" />
+        <item itemvalue="Application.CustomerAsynchronous" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cbe2153-3810-4a63-9eb5-d512930ba73e" name="Default Changelist" comment="" />
+      <created>1578207632353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578207632353</updated>
+      <workItem from="1578207638656" duration="10497000" />
+      <workItem from="1578312163872" duration="1750000" />
+      <workItem from="1578314680617" duration="321000" />
+      <workItem from="1578315099276" duration="476000" />
+      <workItem from="1578315658857" duration="1726000" />
+      <workItem from="1578317421666" duration="224000" />
+      <workItem from="1578317675126" duration="320000" />
+      <workItem from="1578318023113" duration="1601000" />
+      <workItem from="1578319808943" duration="15364000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一个 activemq 应用程序">
+      <created>1578210764756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578210764757</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第一个 activemq 应用程序">
+      <created>1578210805005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578210805005</updated>
+    </task>
+    <task id="LOCAL-00003" summary="优化：异步消费">
+      <created>1578213415561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578213415561</updated>
+    </task>
+    <task id="LOCAL-00004" summary="主题：持久订阅者模式">
+      <created>1578313622134</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578313622134</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一个 activemq 应用程序" />
+    <MESSAGE value="优化：异步消费" />
+    <MESSAGE value="主题：持久订阅者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="主题：持久订阅者模式" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1578386279334">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="224" key="#com.intellij.ide.util.MemberChooser/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578386279334" />
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom" timestamp="1578392383918">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.0.bottom/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578392383918" />
+    <state width="1877" height="249" key="GridCell.Tab.0.center" timestamp="1578392383918">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.0.center/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578392383918" />
+    <state width="1877" height="249" key="GridCell.Tab.0.left" timestamp="1578392383917">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.0.left/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578392383917" />
+    <state width="1877" height="249" key="GridCell.Tab.0.right" timestamp="1578392383918">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="249" key="GridCell.Tab.0.right/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578392383918" />
+    <state x="461" y="211" key="SettingsEditor" timestamp="1578386218310">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="211" key="SettingsEditor/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578386218310" />
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1578318046309">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="640" y="364" key="com.intellij.ide.util.TipDialog/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578318046309" />
+    <state x="334" y="178" key="new project wizard" timestamp="1578319999094">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="334" y="178" key="new project wizard/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578319999094" />
+    <state x="616" y="250" key="run.anything.popup" timestamp="1578321836153">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578321836153" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1578386290372">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.131.1366.768/0.0.1920.1080@0.0.1920.1080" timestamp="1578386290372" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>acrivemq_1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.51297575" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

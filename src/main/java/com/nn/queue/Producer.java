@@ -9,7 +9,8 @@ import javax.jms.*;
  */
 public class Producer {
 
-    private static String brokerURL= "tcp://192.168.1.107:61616"; // 在 activemq 根目录下/conf/activemq.xml 中找
+//    private static String brokerURL= "tcp://192.168.1.107:61616"; // 在 activemq 根目录下/conf/activemq.xml 中找
+    private static String brokerURL= "tcp://127.0.0.1:61616"; // 在 activemq 根目录下/conf/activemq.xml 中找
     private static String queueName = "queue-hello";
 
     public static void main(String[] args) throws JMSException {

@@ -13,6 +13,7 @@
         <activemq.version>5.15.9</activemq.version>
         <slf4j.version>1.7.25</slf4j.version>
         <lombok.version>1.18.8</lombok.version>
+        <jackson.vsersion>2.10.0</jackson.vsersion>
     </properties>
 
     <dependencies>
@@ -23,6 +24,7 @@
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-all</artifactId>
             <version>${activemq.version}</version>
+
         </dependency>
 
         <!-- 下面是 log4 等 通用配置-->
@@ -37,6 +39,14 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.vsersion}</version>
         </dependency>
 
 
